@@ -2,7 +2,7 @@ import { Row, Tag, Checkbox } from 'antd';
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { toggleTodoStatus } from '../../redux/actions';
-import todoListSlice from '../TodoList/todosSlice'; 
+import todoListSlice from '../TodoList/todosSlice';// do export default nen ta co the import bang ten nao cung dc
 
 const priorityColorMapping = {
   High: 'red',
